@@ -1,0 +1,71 @@
+
+button.signup-btn {
+    color: #fff;
+    background-color: #00abfd !important;
+    background-image: unset;
+    border-radius: 8px;
+    border: unset;
+    height: 36px;
+    text-shadow: none;
+    font-family: "europa",sans-serif !important;
+    letter-spacing: normal;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.36);
+    font-weight: bold;
+}
+
+#signup-btn .button:hover:not(:disabled), button:hover:not(:disabled){
+    background-image: unset !important;
+    background-color: inherit;
+}
+.header-global{
+    box-shadow: 0 2px 3px rgba(0,0,0,0.28);
+    min-width: unset !important;
+    background-color: #920061;
+    color: white;
+    font: normal 16px/24px British Council Sans;
+}
+
+.header-link{
+    margin-top: 0.3125rem;
+}
+.header-global .wrapper-header .header-right-links{
+    margin-top: 0;
+}
+
+.header-global .wrapper-header .logo{
+    margin-top: 5px;
+    padding-right: 16px;
+    border-right: 1px solid #ffffff;
+    margin-right: 16px;
+    float: left;
+}
+.header-global .wrapper-header .etonx-logo{
+    width: 103px;
+    height: 30px;
+}
+
+.right-header {
+    font: Bold 16px/24px British Council Sans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 8px 0px 0px 0px;
+    display: inline-block;
+}
+
+body {
+    font-family: "British Council Sans";
+}
+
+.header-global .wrapper-header .header-link .header-link-li {
+    display: inline-block;
+    margin-right: 0.9375rem;
+    font: normal 16px/24px British Council Sans;
+    color: #ffffff;
+}
+
+.header-global .wrapper-header .header-link .header-link-li a {
+    font: normal 16px/24px British Council Sans;
+    color: #ffffff;
+    text-align: left;
+}

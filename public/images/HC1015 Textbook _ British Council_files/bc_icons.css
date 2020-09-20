@@ -1,0 +1,400 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/static/fonts/bc/icomoon.eot?jmfez');
+  src:  url('/static/fonts/bc/icomoon.eot?jmfez#iefix') format('embedded-opentype'),
+    url('/static/fonts/bc/icomoon.ttf?jmfez') format('truetype'),
+    url('/static/fonts/bc/icomoon.woff?jmfez') format('woff'),
+    url('/static/fonts/bc/icomoon.svg?jmfez#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icomoon-icon-"], [class*=" icomoon-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 32px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-icon-Accordion:before {
+  content: "\e900";
+  color: #009D86;
+}
+.icomoon-icon-Attachment:before {
+  content: "\e901";
+  color: #009D86;
+}
+.icomoon-icon-Back:before {
+  content: "\e902";
+  color: #009D86;
+}
+.icomoon-icon-Ban:before {
+  content: "\e903";
+  color: #009D86;
+}
+.icomoon-icon-Book-Reading:before {
+  content: "\e904";
+  color: #009D86;
+}
+.icomoon-icon-Breakout-Rooms:before {
+  content: "\e905";
+  color: #009D86;
+}
+.icomoon-icon-Brush-Color:before {
+  content: "\e906";
+  color: #009D86;
+}
+.icomoon-icon-Brush-Size:before {
+  content: "\e907";
+  color: #009D86;
+}
+.icomoon-icon-Brush:before {
+  content: "\e908";
+  color: #009D86;
+}
+.icomoon-icon-Calendar:before {
+  content: "\e909";
+  color: #009D86;
+}
+.icomoon-icon-Change-Roles:before {
+  content: "\e90a";
+  color: #009D86;
+}
+.icomoon-icon-Chat:before {
+  content: "\e90b";
+  color: #009D86;
+}
+.icomoon-icon-Clear-All:before {
+  content: "\e90c";
+  color: #009D86;
+}
+.icomoon-icon-Close-Round:before {
+  content: "\e90e";
+  color: #009D86;
+}
+.icomoon-icon-Course:before {
+  content: "\e90f";
+  color: #009D86;
+}
+.icomoon-icon-Default-view:before {
+  content: "\e910";
+  color: #009D86;
+}
+.icomoon-icon-Delete:before {
+  content: "\e911";
+  color: #009D86;
+}
+.icomoon-icon-Doc:before {
+  content: "\e912";
+  color: #fcfcfc;
+}
+.icomoon-icon-Dollar:before {
+  content: "\e913";
+  color: #009D86;
+}
+.icomoon-icon-Download:before {
+  content: "\e914";
+  color: #009D86;
+}
+.icomoon-icon-Drag-Handle:before {
+  content: "\e915";
+  color: #009D86;
+}
+.icomoon-icon-Email:before {
+  content: "\e916";
+  color: #009D86;
+}
+.icomoon-icon-Erase:before {
+  content: "\e917";
+  color: #009D86;
+}
+.icomoon-icon-Evaluation:before {
+  content: "\e918";
+  color: #009D86;
+}
+.icomoon-icon-Event:before {
+  content: "\e919";
+  color: #009D86;
+}
+.icomoon-icon-Exit:before {
+  content: "\e91a";
+  color: #009D86;
+}
+.icomoon-icon-Filter-sort:before {
+  content: "\e91d";
+  color: #009D86;
+}
+.icomoon-icon-Free:before {
+  content: "\e91e";
+  color: #009D86;
+}
+.icomoon-icon-Full-Screen:before {
+  content: "\e91f";
+  color: #009D86;
+}
+.icomoon-icon-Group:before {
+  content: "\e920";
+  color: #009D86;
+}
+.icomoon-icon-Highlighting:before {
+  content: "\e921";
+  color: #009D86;
+}
+.icomoon-icon-Image:before {
+  content: "\e924";
+  color: #009D86;
+}
+.icomoon-icon-Inhouse:before {
+  content: "\e925";
+  color: #009D86;
+}
+.icomoon-icon-Instructor:before {
+  content: "\e926";
+  color: #009D86;
+}
+.icomoon-icon-Journal:before {
+  content: "\e927";
+  color: #009D86;
+}
+.icomoon-icon-Make-Presentation:before {
+  content: "\e929";
+  color: #009D86;
+}
+.icomoon-icon-Microphone-Off:before {
+  content: "\e92a";
+  color: #009D86;
+}
+.icomoon-icon-Microphone:before {
+  content: "\e92b";
+  color: #009D86;
+}
+.icomoon-icon-Minus:before {
+  content: "\e92d";
+  color: #009D86;
+}
+.icomoon-icon-More:before {
+  content: "\e92e";
+  color: #009D86;
+}
+.icomoon-icon-Music:before {
+  content: "\e92f";
+  color: #009D86;
+}
+.icomoon-icon-Note:before {
+  content: "\e930";
+  color: #009D86;
+}
+.icomoon-icon-Orientation:before {
+  content: "\e931";
+  color: #009D86;
+}
+.icomoon-icon-Parking:before {
+  content: "\e933";
+  color: #009D86;
+}
+.icomoon-icon-Participant-view:before {
+  content: "\e934";
+  color: #009D86;
+}
+.icomoon-icon-Pause:before {
+  content: "\e935";
+  color: #00a8ff;
+}
+.icomoon-icon-PDF:before {
+  content: "\e936";
+  color: #009D86;
+}
+.icomoon-icon-Play-Fill:before {
+  content: "\e938";
+  color: #00a8ff;
+}
+.icomoon-icon-Play:before {
+  content: "\e939";
+  color: #009D86;
+}
+.icomoon-icon-Pluse-Round:before {
+  content: "\e93b";
+  color: #009D86;
+}
+.icomoon-icon-Pluse:before {
+  content: "\e93c";
+  color: #009D86;
+}
+.icomoon-icon-Polls:before {
+  content: "\e93d";
+  color: #009D86;
+}
+.icomoon-icon-Presenter-view:before {
+  content: "\e93e";
+  color: #009D86;
+}
+.icomoon-icon-Private-Chat-Off:before {
+  content: "\e93f";
+  color: #009D86;
+}
+.icomoon-icon-Private-Chat:before {
+  content: "\e940";
+  color: #009D86;
+}
+.icomoon-icon-Progress:before {
+  content: "\e941";
+  color: #009D86;
+}
+.icomoon-icon-Publish:before {
+  content: "\e942";
+  color: #009D86;
+}
+.icomoon-icon-Purchase:before {
+  content: "\e943";
+  color: #009D86;
+}
+.icomoon-icon-Raise-hand:before {
+  content: "\e944";
+  color: #009D86;
+}
+.icomoon-icon-Randomize:before {
+  content: "\e945";
+  color: #009D86;
+}
+.icomoon-icon-Refresh:before {
+  content: "\e946";
+  color: #009D86;
+}
+.icomoon-icon-Remove:before {
+  content: "\e947";
+  color: #009D86;
+}
+.icomoon-icon-Report-Concern:before {
+  content: "\e948";
+  color: #009D86;
+}
+.icomoon-icon-Report:before {
+  content: "\e949";
+  color: #009D86;
+}
+.icomoon-icon-Resources:before {
+  content: "\e94b";
+  color: #009D86;
+}
+.icomoon-icon-Reverse:before {
+  content: "\e94c";
+  color: #009D86;
+}
+.icomoon-icon-Right:before {
+  content: "\e94d";
+  color: #009D86;
+}
+.icomoon-icon-Search:before {
+  content: "\e94e";
+  color: #009D86;
+}
+.icomoon-icon-Section:before {
+  content: "\e94f";
+  color: #009D86;
+}
+.icomoon-icon-Send:before {
+  content: "\e950";
+  color: #009D86;
+}
+.icomoon-icon-Settings:before {
+  content: "\e951";
+  color: #009D86;
+}
+.icomoon-icon-Share-Screen:before {
+  content: "\e952";
+  color: #009D86;
+}
+.icomoon-icon-Star-Fill:before {
+  content: "\e953";
+  color: #009D86;
+}
+.icomoon-icon-Star-half:before {
+  content: "\e954";
+  color: #009D86;
+}
+.icomoon-icon-Star:before {
+  content: "\e955";
+  color: #009D86;
+}
+.icomoon-icon-Stop:before {
+  content: "\e956";
+  color: #00a8ff;
+}
+.icomoon-icon-Summing-Up:before {
+  content: "\e957";
+  color: #009D86;
+}
+.icomoon-icon-Sys-Download:before {
+  content: "\e958";
+  color: #009D86;
+}
+.icomoon-icon-Sysystem-Check:before {
+  content: "\e959";
+  color: #009D86;
+}
+.icomoon-icon-Tick-Round:before {
+  content: "\e95a";
+  color: #009D86;
+}
+.icomoon-icon-Tick:before {
+  content: "\e95b";
+  color: #58c18c;
+}
+.icomoon-icon-Tutor-Round:before {
+  content: "\e95c";
+  color: #cecece;
+}
+.icomoon-icon-Tutor:before {
+  content: "\e95d";
+  color: #009D86;
+}
+.icomoon-icon-upload:before {
+  content: "\e95e";
+  color: #009D86;
+}
+.icomoon-icon-Users:before {
+  content: "\e95f";
+  color: #009D86;
+}
+.icomoon-icon-Vertical-Elipses:before {
+  content: "\e960";
+  color: #009D86;
+}
+.icomoon-icon-Video:before {
+  content: "\e961";
+  color: #009D86;
+}
+.icomoon-icon-Videocom-Off:before {
+  content: "\e963";
+  color: #fcfcfc;
+}
+.icomoon-icon-Videocom:before {
+  content: "\e964";
+  color: #009D86;
+}
+.icomoon-icon-Volumes:before {
+  content: "\e967";
+  color: #009D86;
+}
+.icomoon-icon-Wifi:before {
+  content: "\e969";
+  color: #009D86;
+}
+.icomoon-icon-Wrench:before {
+  content: "\e96a";
+  color: #009D86;
+}
+.icomoon-icon-Write-Text:before {
+  content: "\e96b";
+  color: #009D86;
+}

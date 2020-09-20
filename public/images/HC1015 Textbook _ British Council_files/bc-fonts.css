@@ -1,0 +1,15 @@
+@font-face {
+    font-family:"British Council Sans";
+    src:url("/static/fonts/bc/BritishCouncilSansW29-Bd.eot") format("embedded-opentype"), url("/static/fonts/bc/BritishCouncilSansW29-Bd.ttf") format("truetype"), url("/static/fonts/bc/BritishCouncilSansW29-Bd.woff") format("woff"), url("/static/fonts/bc/BritishCouncilSansW29-Bd.woff2") format("woff2");
+    font-display:auto;
+    font-style:normal;
+    font-weight:700;
+}
+
+@font-face {
+    font-family:"British Council Sans";
+    src:url("/static/fonts/bc/BritishCouncilSansW29-Rg.eot") format("embedded-opentype"), url("/static/fonts/bc/BritishCouncilSansW29-Rg.ttf") format("truetype"), url("/static/fonts/bc/BritishCouncilSansW29-Rg.woff") format("woff"), url("/static/fonts/bc/BritishCouncilSansW29-Rg.woff2") format("woff2");
+    font-display:auto;
+    font-style:normal;
+    font-weight:400;
+}

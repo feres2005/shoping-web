@@ -1,0 +1,42 @@
+{
+    "products":[
+       { "_id":"NIK",
+        "title": "italien clothe",
+        "image":"/images/34.jpg",
+        "description":"amanteau boutonné oversize Manteau boutonné oversize Rick Owens avec doublure imprimée, col v, devant à effet portefeuille, boutonnière sur le devant et manches longues. Couleur : noir. Fabrication : Italie",
+        "price":"899.99",
+        "availableSizes":["M","L","XXL"]
+    },
+    {"_id":"NIKE2",
+        "title": "NIKE2",
+        "image":"/images/35.jpg",
+        "description":"Blazer à design sans col en coton Maison Margiela avec design sans col, fermeture devant dissimulée et manches longues. Couleur : noir. Fabrication : Italie ",
+        "price":"799.99",
+        "availableSizes":["S","L","M"]},
+      { "_id":"NIKE3",
+        "title": "heron preston",
+        "image":"/images/36.jpg",
+        "description":"logo-patch pouch Black leather logo-patch pouch from HERON PRESTON featuring rectangle body, logo patch to the front, top zip fastening and full lining.",
+        "price":"699.99",
+        "availableSizes":["XL","S"]},
+        {"_id":"JORDON",
+            "title": "john eliot",
+            "image":"/images/37.jpg",
+            "description":"about dress1",
+            "price":"999.99",
+            "availableSizes":["S","M","XXL"]},
+    
+            {"_id":"JORDON1",
+              "title": "rick owens",
+              "image":"/images/38.jpg",
+              "description":"about dress1",
+              "price":"599.99",
+              "availableSizes":["XL","L","XS"]},
+              {"_id":"yuba_runch",
+                "title": "yuba runch",
+                "image":"/images/39.jpg",
+                "description":"about dress1",
+                "price":"400",
+                "availableSizes":["XL","L","XS"]}
+    ]
+    }

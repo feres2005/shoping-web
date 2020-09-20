@@ -1,0 +1,79 @@
+.wrapper-footer{
+    height: unset !important;
+    border-top: none;
+    background: #920061 0% 0% no-repeat padding-box;
+    color: white !important;
+}
+.wrapper-footer footer#footer-openedx p {
+    color:  white !important;
+}
+footer a {
+    color:  white !important;
+    font-family: "British Council Sans",sans-serif !important;
+}
+.wrapper-footer footer#footer-openedx ul{
+    font-family: "British Council Sans",sans-serif !important;
+    list-style: none;
+}
+.footer-list-item a:hover {
+    color: #ffffff;
+    text-decoration: underline !important;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.wrapper-footer footer#footer-openedx a:hover, 
+.wrapper-footer footer#footer-openedx a:focus, 
+.wrapper-footer footer#footer-openedx a:active{
+    border-bottom: unset;
+}
+
+.wrapper.wrapper-footer{
+    min-width: unset;
+}
+@media(max-width: 375px){
+    .wrapper.wrapper-footer{
+    width: 100%;
+    margin-top: 0px;
+        bottom: 0px;
+        padding-bottom: 7px;
+
+    }
+}
+.view-passwordreset .wrapper-footer footer{
+    width: unset !important;
+}
+
+#footer-openedx ul li{
+    display: inline-block;
+}
+
+.footer-link {
+    margin-bottom: 24px !important;
+}
+
+.power-text {
+    text-align: center;
+    font: bold 16px/24px British Council Sans !important;
+    margin-bottom: 24px !important;
+}
+
+.footer-text p {
+    margin-bottom: 0px !important;
+    font: normal 16px/24px British Council Sans !important;
+}
+
+.link-sep {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.wrapper-footer footer#footer-openedx a:hover {
+    text-decoration: underline !important;
+}
+
+.footer-text {
+    font: normal 16px/24px British Council Sans !important;
+}
