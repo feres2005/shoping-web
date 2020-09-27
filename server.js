@@ -45,6 +45,10 @@ app.delete("/api/products/:id", async (req, res) => {
   const deletedProduct = await Product.findByIdAndDelete(req.params.id);
   res.send(deletedProduct);
 });
+app.put("/api/products/:id", async (req, res) => {
+  const updatedProduct = await Product.findByIdAndUpdate(req.params.id);
+  res.send(updatedProduct);
+});
 
 const Order = mongoose.model(
   "order",
@@ -54,9 +58,7 @@ const Order = mongoose.model(
         type: String,
         default: shortid.generate,
       },
-      email: String,
-      name: String,
-      address: String,
+     
       total: Number,
       cartItems: [
         {
@@ -75,9 +77,7 @@ const Order = mongoose.model(
 
 app.post("/api/orders", async (req, res) => {
   if (
-    !req.body.name ||
-    !req.body.email ||
-    !req.body.address ||
+   
     !req.body.total ||
     !req.body.cartItems
   ) {

@@ -5,7 +5,7 @@ import Modal from "react-modal";
 import Zoom from "react-reveal/Zoom";
 import { connect } from "react-redux";
 import { fetchProducts } from "../actions/productActions";
-import {addToCart} from "../actions/cartActions"
+import { addToCart } from "../actions/cartActions";
 
 class Products extends Component {
   constructor(props) {
@@ -43,7 +43,7 @@ class Products extends Component {
                       <p>{product.title}</p>
                     </a>
                     <div className="product-price">
-                      <div>{(product.price)}</div>
+                      <div>{formatCurrency(product.price)}</div>
                       <button
                         onClick={() => this.props.addToCart(product)}
                         className="button-primary"
@@ -80,9 +80,9 @@ class Products extends Component {
                     ))}
                   </p>
                   <div className="product-price">
-                    <div>{(product.price)}</div>
+                    <div>{formatCurrency(product.price)}</div>
                     <button
-                      className="button primary"
+                      className="button-primary"
                       onClick={() => {
                         this.props.addToCart(product);
                         this.closeModal();
@@ -104,6 +104,6 @@ export default connect(
   (state) => ({ products: state.products.filteredItems }),
   {
     fetchProducts,
-    addToCart
+    addToCart,
   }
 )(Products);
